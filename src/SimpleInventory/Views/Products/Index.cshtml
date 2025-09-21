@@ -1,0 +1,79 @@
+﻿@using SimpleInventory.Common.Classes
+@model PagedResult<Product>
+@{
+    ViewBag.Title = "Products";
+    var search = ViewBag.Search as string;
+    var categoryId = ViewBag.CategoryId as int?;
+    var sort = ViewBag.Sort as string;
+    var categories = (SelectList)ViewBag.Categories;
+    string SortLink(string s) => Url.Action("Index", new { search, categoryId, sort = s, page = 1 });
+    string PageLink(int p) => Url.Action("Index", new { search, categoryId, sort, page = p });
+}
+
+<h2>Products</h2>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-md-4">
+        <input type="text" name="search" value="@search" class="form-control" placeholder="Search name or SKU" />
+    </div>
+    <div class="col-md-3">
+        @Html.DropDownList("categoryId", categories, "All Categories", new { @class = "form-select" })
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-primary w-100">Filter</button>
+    </div>
+    <div class="col-md-3 text-end">
+        <a asp-action="Create" class="btn btn-success">+ Create Product</a>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th><a href="@SortLink(sort == "name_asc" ? "name_desc" : "name_asc")">Name</a></th>
+            <th>SKU</th>
+            <th><a href="@SortLink(sort == "price_asc" ? "price_desc" : "price_asc")">Price</a></th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th style="width:140px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model.Items)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Sku</td>
+                <td>@p.Price.ToString("0.00")</td>
+                <td>@p.Quantity</td>
+                <td>@p.CategoryId.ToString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@p.Id" class="btn btn-sm btn-primary">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@p.Id" method="post" class="d-inline">
+                        <button class="btn btn-sm btn-danger" onclick="return confirm('Delete this product?')">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.TotalPages > 1)
+{
+    <nav>
+        <ul class="pagination">
+            <li class="page-item @(Model.HasPrev ? "" : "disabled")">
+                <a class="page-link" href="@(Model.HasPrev? PageLink(Model.Page - 1) : "#")">Prev</a>
+            </li>
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(Model.Page == i ? "active" : "")">
+                    <a class="page-link" href="@PageLink(i)">@i</a>
+                </li>
+            }
+            <li class="page-item @(Model.HasNext ? "" : "disabled")">
+                <a class="page-link" href="@(Model.HasNext? PageLink(Model.Page + 1) : "#")">Next</a>
+            </li>
+        </ul>
+    </nav>
+}

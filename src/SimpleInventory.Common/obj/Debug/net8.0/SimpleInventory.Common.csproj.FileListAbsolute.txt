@@ -1,0 +1,12 @@
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\bin\Debug\net8.0\SimpleInventory.Common.deps.json
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\bin\Debug\net8.0\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\bin\Debug\net8.0\SimpleInventory.Common.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.AssemblyInfoInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.AssemblyInfo.cs
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.csproj.CoreCompileInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\refint\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\ref\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Common\obj\Debug\net8.0\SimpleInventory.Common.csproj.AssemblyReference.cache

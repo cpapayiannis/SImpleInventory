@@ -1,0 +1,15 @@
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\bin\Debug\net8.0\SimpleInventory.DataAccess.deps.json
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\bin\Debug\net8.0\SimpleInventory.DataAccess.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\bin\Debug\net8.0\SimpleInventory.DataAccess.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\bin\Debug\net8.0\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\bin\Debug\net8.0\SimpleInventory.Common.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.AssemblyInfo.cs
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleIn.309FFA7C.Up2Date
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\refint\SimpleInventory.DataAccess.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\SimpleInventory.DataAccess.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.DataAccess\obj\Debug\net8.0\ref\SimpleInventory.DataAccess.dll

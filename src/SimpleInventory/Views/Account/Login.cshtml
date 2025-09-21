@@ -1,0 +1,31 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Login";
+    var returnUrl = Model ?? "/";
+}
+
+<h2>Login</h2>
+
+<form asp-action="Login" asp-controller="Account" method="post">
+    <input type="hidden" name="returnUrl" value="@returnUrl" />
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-3">
+        Invalid credentials. Please try again.
+    </div>
+}

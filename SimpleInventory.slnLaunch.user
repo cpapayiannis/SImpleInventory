@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\SimpleInventory\\SimpleInventory.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\SimpleInventory.Api\\SimpleInventory.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

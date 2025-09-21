@@ -1,0 +1,15 @@
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\bin\Debug\net8.0\SimpleInventory.Authorization.deps.json
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\bin\Debug\net8.0\SimpleInventory.Authorization.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\bin\Debug\net8.0\SimpleInventory.Authorization.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\bin\Debug\net8.0\SimpleInventory.Common.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\bin\Debug\net8.0\SimpleInventory.Common.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.csproj.AssemblyReference.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.AssemblyInfoInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.AssemblyInfo.cs
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.csproj.CoreCompileInputs.cache
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleIn.DE8ECD65.Up2Date
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\refint\SimpleInventory.Authorization.dll
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\SimpleInventory.Authorization.pdb
+C:\Users\ChristosP\source\repos\SimpleInventory\src\SimpleInventory.Authorization\obj\Debug\net8.0\ref\SimpleInventory.Authorization.dll
